@@ -41,6 +41,7 @@ width: 73%
 
 #chainsaw {
 	text-align: center;
+
 	
 }
 
@@ -48,6 +49,26 @@ width: 73%
 	
 text-align: center;
 
+}
+
+.button {
+	
+	background-color: lightyellow;
+}
+
+#one {
+	text-align: center;
+
+}
+
+#two {
+	float: left;
+	padding-left: 350px;
+}
+
+#three {
+	float: right;
+	padding-right: 350px;
 }
 
 
