@@ -21,7 +21,8 @@ h1 {
 
 #indexinfo {
 
-  width: 22%;
+  width: 35%;
+  padding-left: 3%;
   
 }
 
@@ -63,12 +64,33 @@ text-align: center;
 
 #two {
 	float: left;
-	padding-left: 350px;
+	padding-left: 300px;
 }
 
 #three {
 	float: right;
-	padding-right: 350px;
+	padding-right: 300px;
 }
 
+@media (min-width: 600px) and (max-width: 768px) {
+  
+#indexinfo {
+	text-align: left;
+}
 
+#home {
+	float: right;
+	padding-left: 20px;
+}
+
+#two {
+	float: left;
+	padding-left: 30%;
+}
+
+#three {
+	float: left;
+	padding-left: 30%;
+}
+  
+}
