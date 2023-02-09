@@ -86,11 +86,12 @@ text-align: center;
 #two {
 	float: left;
 	padding-left: 30%;
+	
 }
 
 #three {
-	float: left;
-	padding-left: 30%;
+	display: none;
+	
 }
   
 }
