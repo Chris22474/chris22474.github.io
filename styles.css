@@ -72,7 +72,7 @@ text-align: center;
 	padding-right: 300px;
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   
 #indexinfo {
 	text-align: left;
