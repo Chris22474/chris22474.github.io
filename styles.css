@@ -24,11 +24,15 @@ h1 {
   width: 35%;
   padding-left: 3%;
   
+  
+  
 }
 
 #home {
 float: right;
-width: 73%
+width: 70%;
+
+
 
 }
 
@@ -72,11 +76,26 @@ text-align: center;
 	padding-right: 300px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-  
+#tabletinfo {
+	display: none;
+}
+
+#four {
+	display: none;
+}
+
+
+/* Phone media query */
+@media (min-width: 320px) and (max-width: 480px) {
+	body {
+		background-color: honeydew;
+	}
+ 
+ 
 #indexinfo {
 	text-align: left;
 	width: 70%;
+	
 }
 
 #home {
@@ -86,8 +105,8 @@ text-align: center;
 
 #two {
 	float: left;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 8%;
+	
 }
 
 #three {
@@ -100,7 +119,103 @@ text-align: center;
 	width: 100%;
 	height: auto;
 	text-align: center;
+}
+	
+#tabletinfo {
+display: none;
   
 }
 
+#four {
+display: none;
 }
+
+}
+
+/* Tablet media query */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+	
+body {
+	background-color: lightgrey;
+}
+
+#indexinfo {
+	display: none;
+	
+}
+	
+#home {
+   
+   float: left;
+   width: 50%;
+   padding-left: 10%;
+   padding-right: 0%;
+   padding-top: 1%;   
+}
+
+#tabletinfo {
+
+	float: right;
+	width: 50%;
+	padding-right: 10%;
+	padding-left: 0%;
+	font-size: 14px;
+	display: block;
+}
+
+#one {
+	
+	float: right;
+	font-size: 12px;
+	width: 30%;
+	padding-right: 1%;
+}
+
+#two {
+	
+	float: left;
+	width: 50%;
+	padding-right: 10%;
+	padding-left: 1%;
+	padding-bottom: 10%;
+	
+}
+
+#three {
+	
+	float: left;
+	padding-left: 1%;
+	padding-right: 65%;
+	width: 50%;
+	
+}
+
+#four {
+   
+   display: block;
+   float: right;
+   font-size: 12px;
+   width: 30%;
+   
+	
+
+}
+
+#map {
+	
+	float: left;
+	width: 50%;
+	padding-left: 1%;
+	padding-top:3%;
+}
+
+#contact {
+	float: right;
+	font-size: 11px;
+	padding-right: 1%;
+	padding-top: 5%
+	
+}
+
+}   
