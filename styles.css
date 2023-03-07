@@ -84,6 +84,18 @@ text-align: center;
 	display: none;
 }
 
+#tabpic1 {
+	display: none;
+}
+
+#tabpicinfo {
+	display: none;
+}
+
+#tabcontact {
+	display: none;
+}
+
 
 /* Phone media query */
 @media (min-width: 320px) and (max-width: 480px) {
@@ -130,6 +142,18 @@ display: none;
 display: none;
 }
 
+#tabpic1 {
+	display: none;
+}
+
+#tabpicinfo {
+	display: none;
+}
+
+#tabcontact {
+	display: none;
+}
+	
 }
 
 /* Tablet media query */
@@ -162,6 +186,7 @@ body {
 	padding-left: 0%;
 	font-size: 14px;
 	display: block;
+	padding-top: 7%;
 }
 
 #one {
@@ -211,11 +236,37 @@ body {
 }
 
 #contact {
-	float: right;
+	text-align: center;
 	font-size: 12px;
 	padding-right: 1%;
 	padding-top: 5%
 	
 }
 
+#tabpic1 {
+	display: block;
+	float: left;
+    padding-top: 10%;
+	width: 50%;
+	padding-right: 0%;
+	padding-left: 10%;
+}
+
+#tabpicinfo {
+	display: block;
+	float: right;
+	font-size: 14px;
+	width: 50%;
+	padding-top: 8%;
+	padding-right: 10%;
+	padding-left: 0%;
+}
+
+#tabcontact {
+	display: block;
+	float: left;
+	font-size: 18px;
+    padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 7%;
 }   

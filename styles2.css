@@ -26,3 +26,9 @@ p {
 #riverrock {
 	text-align: center;
 }
+
+/* tablet media query */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+	
+}
