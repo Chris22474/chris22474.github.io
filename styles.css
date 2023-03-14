@@ -56,6 +56,14 @@ text-align: center;
 
 }
 
+#button1 {
+	text-align: center;
+}
+
+#button2 {
+	text-align: center;
+}
+
 .button {
 	
 	background-color: lightyellow;
@@ -97,6 +105,23 @@ text-align: center;
 }
 
 #video1 {
+	display: none;
+}
+
+#mower {
+	display: none;
+}
+
+#button1info {
+	display: none;
+}
+
+#mulching {
+	display: none;
+
+}
+
+#button2info {
 	display: none;
 }
 
@@ -160,6 +185,22 @@ display: none;
 
 #video1 {
 	display:none;
+}
+
+#mower {
+	display: none;
+}
+
+#buttton1info {
+	display: none;
+}
+
+#mulching {
+	display: none;
+}
+
+#button2info {
+	display: none;
 }
 	
 }
@@ -272,7 +313,7 @@ body {
 
 #tabcontact {
 	display: block;
-	float: left;
+	text-align: center;
 	font-size: 18px;
     padding-right: 5%;
 	padding-left: 5%;
@@ -282,5 +323,57 @@ body {
 #video1 {
     display: block;
 	text-align: center;
+}
+
+#mower {
+	display: block;
+	float: right;
+	
+
+}
+
+#button1 {
+	float: top-left;
+	font-size: 12px;
+	
+}
+
+#button1info {
+	display: block;
+	float: bottom-left;
+	padding-top: 12px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+}
+
+#mulching {
+	display: block;
+	float: right;
+	padding-top: 50px;
+
+}
+
+
+
+#mulch {
+	display: none;
+	
+}
+
+#button2 {
+	float: top-left;
+	font-size: 12px;
+	padding-top: 55px;
+}
+
+#button2info {
+	display: block;
+	float: bottom-left;
+	padding-top: 12px;
+	padding-left: 10%;
+}
+
+#chainsaw {
+	display: none;
 }
 }
