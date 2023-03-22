@@ -1,5 +1,6 @@
 
 
+/* Desktop and Laptop display */
 
 body {
 
@@ -21,19 +22,37 @@ h1 {
 
 #indexinfo {
 
-  width: 35%;
-  padding-left: 3%;
   
-  
+  font-size: 15px;
+  float: left;
+	padding-right: 8%;
   
 }
 
 #home {
-float: right;
-width: 70%;
+float: left;
+width: 40%;
+padding-left: 8%;
+}
 
+#home2 {
+	float: left;
+	width: 25%;
+	
 
+}
 
+#tree1 {
+	float: left;
+	width: 35.8%;
+	padding-left: 8%;
+	padding-top: 3%;
+}
+
+#desktopinfo {
+	float: left;
+	padding-left: 5%;
+	padding-top: 5%;
 }
 
 #map { 
@@ -69,28 +88,44 @@ text-align: center;
 	background-color: lightyellow;
 }
 
-#one {
-	text-align: center;
+#two {
+	float: left;
+	
+	
 
 }
 
-#two {
+#one {
 	float: left;
-	padding-left: 300px;
+	width: 450px;
+	padding-left: 1%;
 }
 
 #three {
-	float: right;
-	padding-right: 300px;
+	float: left;
+	padding-left: 2%;
+	padding-bottom: 2%;
 }
+
+#four {
+	float: right;
+	width: 425px;
+	padding-right:1%;
+	padding-bottom: 2%;
+	font-size: 19px;
+}
+
+#wide1 {
+	
+	padding-left: 6%;
+}
+	
 
 #tabletinfo {
 	display: none;
 }
 
-#four {
-	display: none;
-}
+
 
 #tabpic1 {
 	display: none;
@@ -134,14 +169,16 @@ text-align: center;
  
  
 #indexinfo {
-	text-align: left;
-	width: 70%;
+	float: left;
+	width: 45%;
 	
 }
 
 #home {
-	float: right;
+	float: left;
 	padding-left: 20px;
+	width: 45%;
+	height: 200px;
 }
 
 #two {
@@ -202,6 +239,21 @@ display: none;
 #button2info {
 	display: none;
 }
+#home2 {
+	display: none;
+}
+
+#tree1 {
+	display: none;
+}
+
+#desktopinfo {
+	display: none;
+}
+
+#wide1 {
+	display: none;
+}
 	
 }
 
@@ -221,16 +273,16 @@ body {
 #home {
    
    float: left;
-   width: 50%;
+   width: 55%;
    padding-left: 10%;
    padding-right: 0%;
-   padding-top: 1%;   
+   padding-top: 8%;   
 }
 
 #tabletinfo {
 
 	float: right;
-	width: 50%;
+	width: 45%;
 	padding-right: 10%;
 	padding-left: 0%;
 	font-size: 14px;
@@ -295,7 +347,7 @@ body {
 #tabpic1 {
 	display: block;
 	float: left;
-    padding-top: 10%;
+    padding-top: 13%;
 	width: 50%;
 	padding-right: 0%;
 	padding-left: 10%;
@@ -376,4 +428,21 @@ body {
 #chainsaw {
 	display: none;
 }
+
+#home2 {
+	display: none;
 }
+
+#tree1 {
+	display: none;
+}
+
+#desktopinfo {
+	display: none;
+}
+
+#wide1 {
+	display: none;
+}
+}
+
