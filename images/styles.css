@@ -70,48 +70,23 @@ padding-left: 8%;
 }
 
 #chainsaw {
- display: none;
-}
+	text-align: center;
 
-#chainsaw2 {
-	float: left;
-	padding-left: 10%;
-	padding-top: 3%;
-}
-
-
-#button1 {
-	float: left;
-	padding-left: 10%;
-	padding-top: 3%;
-}
-
-#button1desktop {
-	float: left;
-	padding-bottom: 30px;
-	padding-left: 10%;
-	padding-top: 3%;
+	
 }
 
 #mulch {
-	display: none;
+	
+text-align: center;
+
 }
 
-#peagravel {
-	float: left;
-	padding-left: 10%;
+#button1 {
+	text-align: center;
 }
 
 #button2 {
-	float: left;
-	padding-right: 500px;
-	padding-left: 10%;
-}
-
-#button2desktop {
-	float: left;
-	padding-left: 10%;
-	padding-top: 3%;
+	text-align: center;
 }
 
 .button {
@@ -215,28 +190,7 @@ padding-left: 8%;
 	body {
 		background-color: honeydew;
 	}
- #mulch {
-	 display: block;
-	 text-align: center;
-	 
- }
  
- #button1 {
-	 text-align: center;
-	
- }
- 
- #chainsaw {
-	 display: block;
-	 text-align: center;
-	 padding-top: 5%;
-	 
- }
- 
- #button2 {
-	 text-align: center;
-	 padding-bottom: 5%;
- }
  
 #indexinfo {
 	float: left;
@@ -345,22 +299,7 @@ display: none;
 #pineisland {
 	display: none;
 }
-
-#button1desktop {
-	display: none;
-}
-
-#button2desktop {
-display: none;
-}
-
-#chainsaw2 {
-display: none;
-}
-
-#peagravel {
-display: none;
-}	
+	
 }
 
 /* Tablet media query */
@@ -493,9 +432,7 @@ body {
 
 #button1 {
 	float: top-left;
-	font-size: 9px;
-	padding-right: 10px;
-	padding-top: 0%;
+	font-size: 12px;
 	
 }
 
@@ -504,7 +441,7 @@ body {
 	float: bottom-left;
 	padding-top: 12px;
 	padding-bottom: 30px;
-	padding-left: 8%;
+	padding-left: 10%;
 }
 
 #mulching {
@@ -523,17 +460,15 @@ body {
 
 #button2 {
 	float: top-left;
-	font-size: 9px;
-	padding-top: 50px;
-	padding-right: 15px;
+	font-size: 12px;
+	padding-top: 55px;
 }
 
 #button2info {
 	display: block;
 	float: bottom-left;
 	padding-top: 12px;
-	padding-left: 8%;
-	padding-right: 10px;
+	padding-left: 10%;
 }
 
 #chainsaw {
@@ -565,22 +500,6 @@ body {
 }
 
 #pineisland {
-	display: none;
-}
-
-#button1desktop {
-	display: none;
-}
-
-#button2desktop {
-	display: none;
-}
-
-#chainsaw2 {
-	display: none;
-}
-
-#peagravel {
 	display: none;
 }
 }
